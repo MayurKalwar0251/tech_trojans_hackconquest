@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "../components/ui/Navbar";
-import LoginPage from "../components/LoginPage";
-import SideBar from "../components/ui/slider/Slider";
+import HomeSection from "../components/HomeSection";
 
 const HomePage = () => {
-  return <div className="text-5xl">HomePage</div>;
+  return (
+    <div>
+      <HomeSection />
+    </div>
+  );
 };
 
 export default HomePage;
