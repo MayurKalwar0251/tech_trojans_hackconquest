@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaBars, FaHome, FaUser } from "react-icons/fa";
+import { FaBars, FaHome, FaHospitalSymbol, FaUser } from "react-icons/fa";
 import { BiLogIn, BiRegistered, BiSolidContact, BiUser } from "react-icons/bi";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -12,6 +12,7 @@ const routes = [
   { path: "/", name: "Home", icon: <FaHome /> },
   { path: "/about-us", name: "About Us", icon: <FaUser /> },
   { path: "/contact-us", name: "Contact Us", icon: <BiSolidContact /> },
+  { path: "/patient-form", name: "Patient Form", icon: <FaHospitalSymbol /> },
 ];
 
 const profileRoutes = [

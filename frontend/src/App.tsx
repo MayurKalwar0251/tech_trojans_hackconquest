@@ -9,6 +9,7 @@ import AboutUs from "./pages/AboutUs";
 import Sales from "./pages/Sales";
 import ContactPage from "./pages/ContactPage";
 import ProfilePage from "./pages/Profile";
+import PatientFormPage from "./pages/PatientFormPage";
 
 function App() {
   return (
@@ -39,6 +40,15 @@ function App() {
               </SideBar>
             }
           />
+          <Route
+            path="/patient-form"
+            element={
+              <SideBar>
+                <PatientFormPage />
+              </SideBar>
+            }
+          />
+
           <Route
             path="/profile"
             element={

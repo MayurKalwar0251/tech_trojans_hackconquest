@@ -1,0 +1,49 @@
+.about-us-container {
+  padding: 40px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+.about-us-section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  color: #2a9d8f;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #264653;
+  margin-bottom: 15px;
+}
+
+.about-mission,
+.about-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-list {
+  list-style-type: none;
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-list li {
+  margin: 10px 0;
+}
+
+strong {
+  color: #e76f51;
+}

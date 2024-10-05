@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import AboutUs from "../components/AboutUs";
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
-    <div>
-      
+    <div className="w-[80vw] mx-auto bg-amber-50">
+      <AboutUs />
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUsPage;
